@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Accordion</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+</head>
+<body class="antialiased min-h-screen flex justify-center items-center bg-gradient-to-b from-[#af67e9] to-[#6565e7]">
+    <div class="flex justify-start items-center border-none w-[330px] md:w-[870px] h-[500px]  md:h-[450px] bg-white gap-6 md:gap-16 rounded-2xl shadow-2xl"> 
+       <div>
+        <img class="absolute w-56 -top-8 left-32" src="img/illustration-woman-online-mobile.svg" alt="illustration-woman-online-mobile">
+        <img class="absolute w-64 top-16 left-[120px] md:hidden" src="img/bg-pattern-mobile.svg" alt="bg-pattern-mobile">
+        <img class="w-[600px] absolute top-2 left-10 hidden md:block" src="img/bg-pattern-desktop.svg" alt="bg-pattern-desktop">
+        <img class="w-[400px] relative hidden md:block" src="img/illustration-woman-online-mobile.svg" alt="illustration-woman-online-desktop">
+    </div>
+     <div class="flex flex-col justify-center items-center md:items-start pt-24 md:pt-0 md:pr-20">
+        <h1 class="text-3xl md:text-2xl font-bold pb-7">FAQ</h1>
+        <div class="inline-flex gap-6 md:gap-16 pb-3.5 md:pb-3">
+            <a href="" class="text-sm hover:text-red-400 active:text-red-400">How many team members can i invite?</a>
+            <img class="object-contain" src="img/icon-arrow-down.svg" alt="icon-arrow-down">
+            
+        </div>
+            <div class="border-t border-b w-[286px] md:w-[335px] py-3.5 md:py-3 border-[#e7e7e9]">
+        <div class="inline-flex gap-6 md:gap-16">
+            <p class=" text-sm font-bold text-[#4a4b5e]">What is the maximum  file upload size?</p>
+            <img class="object-contain dropmenu drop" src="img/icon-arrow-down.svg" alt="icon-arrow-down">
+            <img class="object-contain hidden dropdown dropup" src="img/icon-arrow-up.svg" alt="icon-arrow-up">
+        </div>
+            <p class="text-xs pt-2 text-[#787887] hidden open">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+        <div class="inline-flex gap-[87px] md:gap-32 py-3.5 md:py-3">
+            <a href="" class="text-sm hover:text-red-400 active:text-red-400">How do i reset my password?</a>
+            <img class="object-contain" src="img/icon-arrow-down.svg" alt="icon-arrow-down">
+        </div>
+        <div class="inline-flex gap-[84px] md:gap-[125px] border-t border-b border-[#e7e7e9]  w-[286px] md:w-[335px] py-3.5 md:py-3">
+            <a  href="" class="text-sm hover:text-red-400 active:text-red-400">Can i cancel my subscription?</a>
+            <img class="object-contain" src="img/icon-arrow-down.svg" alt="icon-arrow-down">
+        </div>
+        <div class="inline-flex gap-[45px] md:gap-[86px] border-b w-[286px] md:w-[335px] py-3.5 md:py-3 border-[#e7e7e9]">
+            <a href="" class="text-sm hover:text-red-400 active:text-red-400">Do you provide additional support?</a>
+            <img class="object-contain" src="img/icon-arrow-down.svg" alt="icon-arrow-down">
+        </div>
+    </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
